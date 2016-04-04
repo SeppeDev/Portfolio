@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<title> Seppe Goossens | Portfolio </title>
+	<link rel="shortcut icon" href="css/images/TabLogo.ico">
+
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+
+	<link rel="stylesheet" type="text/css" media="screen" href="http://cdnjs.cloudflare.com/ajax/libs/fancybox/1.3.4/jquery.fancybox-1.3.4.css" />
+
+</head>
+
+<body>
+
+	<header>	<!-- ************************HEADER************************ -->
+
+		<a href="index.php"><h1>Seppe<span id="colorDetail">Dev</span>Goossens</h1></a>
+
+		<ul id = "navul">
+
+			<li class="navli">
+				<a id="currentPart" class="navlink" href="#homePart"> Home </a></li>
+
+			<li class="navli">
+				<a class="navlink" href="#aboutPart"> About </a></li>
+
+			<li class="navli">
+				<a class="navlink" href="#skillsPart"> Skills </a></li>
+
+			<li class="navli">
+				<a class="navlink" href="#workPart"> Work </a></li>
+
+			<li class="navli">
+				<a class="navlink" href="#contactPart"> Contact </a></li>
+
+		</ul>
+
+	</header>	<!-- **********************END HEADER********************** -->
+
+
+	<section>	<!-- ************************SECTION************************ -->
+
+		<div id="homePart">		<!-- **************Home************** -->
+
+
+			<h2><span id="colorDetail">Hi</span>, I'm Seppe, aspiring Web Developer and Designer</h2>
+
+			<img id="profilepic" src="css/images/VolksWagenBusje.jpg">
+
+		</div>
+
+		<div id="aboutPart">	<!-- **************About************* -->
+
+			<h3>About <span id="colorDetail">me</span>...</h3>
+
+
+			<p>
+				My Name is Seppe Goossens, I'm a 20 year old, living in Antwerp, Belgium. I'm a secondyear student for a <span id="colorDetail">professional bachelor</span>'s degree in <span id="colorDetail">Multimedia &amp; Communicationstechnology</span> at the Karel de Grote Hogeschool, specialising in <span id="colorDetail">Web-development</span>.
+			</p>
+
+			<img id="cvImage" class="fancybox" src="css/images/CV.png">
+			<a id="cvDownload" href="dl/CV.pdf" target="_blank"> Curriculum Vitae </a>
+
+		</div>
+
+		<div id="skillsPart">	<!-- *************Skills************* -->
+
+			<h3>Skills</h3>
+
+			<h4>Microsoft office</h4>
+
+			<ul id="skillsul">
+				
+				<li class="skillsli">
+					Word</li>
+
+				<li class="skillsli">
+					PowerPoint</li>
+
+				<li class="skillsli">
+					Excel</li>
+
+				<li class="skillsli">
+					...</li>
+
+
+			<h4>Adobe</h4>
+
+			<ul id="skillsul">
+				
+				<li class="skillsli">
+					Photoshop</li>
+
+				<li class="skillsli">
+					Flash</li>
+
+				<li class="skillsli">
+					After Effects</li>
+
+				<li class="skillsli">
+					Illustrator</li>
+
+				<li class="skillsli">
+					Première</li>
+
+				<li class="skillsli">
+					Audacity</li>
+
+			</ul>
+
+		</div>
+
+		<div id="workPart">		<!-- **************Work************* -->
+
+			<img class="fancybox" src="css/images/Logo.png">
+			<a href="Work.html"><img src="css/images/Logo.png"></a>
+			<a href="Work.html"><img src="css/images/Logo.png"></a>
+			<a href="Work.html"><img src="css/images/Logo.png"></a>
+			<a href="Work.html"><img src="css/images/Logo.png"></a>
+
+			<a href="Work.html"><img class="fancybox" src="css/images/Logo.png"></a>
+			<a href="Work.html"><img src="css/images/Logo.png"></a>
+			<a href="Work.html"><img src="css/images/Logo.png"></a>
+			<a href="Work.html"><img src="css/images/Logo.png"></a>
+			<a href="Work.html"><img src="css/images/Logo.png"></a>
+
+			<a href="Work.html"><img src="css/images/Logo.png"></a>
+			<a href="Work.html"><img src="css/images/Logo.png"></a>
+			<a href="Work.html"><img src="css/images/Logo.png"></a>
+			<a href="Work.html"><img src="css/images/Logo.png"></a>
+			<iframe src="https://www.youtube.com/embed/bLVlim3b8_A" allowfullscreen></iframe>
+
+		</div>
+
+		<div id="contactPart">	<!-- ************Contact************ -->
+			<!--
+			<?php
+			//	if(isset($_POST["email"]))
+			//	{
+			//	   $ToEmail = 'goossens.seppe@hotmail.com'; 
+			//	   $EmailSubject = 'Contact via website'; 
+			//	   $mailheader = "From: ".$_POST["email"]."\r\n"; 
+			//	   $mailheader .= "Reply-To: ".$_POST["email"]."\r\n"; 
+			//	   $mailheader .= "Content-type: text/html; charset=iso-8859-1\r\n"; 
+			//	   $MESSAGE_BODY = "Name: ".$_POST["name"]."\r\n"; 
+			//	   $MESSAGE_BODY .= "Email: ".$_POST["email"]."\r\n"; 
+			//	   $MESSAGE_BODY .= "Comment: ".nl2br($_POST["message"])."\r\n"; 
+			//	   mail($ToEmail, $EmailSubject, $MESSAGE_BODY, $mailheader) or die ("Failure");
+			//	}
+			?>
+			-->
+			<h3><span id="colorDetail">Contact</span> me</h3>
+
+
+			<form method="POST" name="contactform" action="index.php"> 
+				<label for='name' class="contactLabel">Your Name</label>
+					<br><br>
+				<input type="text" name="name">
+				
+					<br><br><br>
+	
+				<label for='email' class="contactLabel">Email Address</label>
+					<br><br>
+				<input type="text" name="email">
+		
+					<br><br><br>
+
+				<label for='message' class="contactLabel">Message</label>
+					<br><br>
+				<textarea name="message" id="contactTextarea"></textarea>
+		
+					<br><br><br>
+
+				<input type="submit" value="Submit"><br>
+			</form>
+
+		</div>
+
+	</section>	<!-- **********************END SECTION********************** -->
+
+
+	<footer>	<!-- ************************FOOTER************************* -->
+		
+		<div id="copyright"> Copyright Seppe Goossens 2015 </div>
+
+		<a id="facebookLink" href="https://www.facebook.com/seppe.goossens.3" target="_blank"><img id="facebookImg" src="css/images/Facebook.png"></a>
+
+	</footer>	<!-- ***********************END FOOTER********************** -->
+
+
+
+
+
+
+
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js" ></script>
+<script type="text/javascript" src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/fancybox/1.3.4/jquery.fancybox-1.3.4.pack.min.js"></script>
+
+<script type="text/javascript" src="js/index.js"></script>
+
+</body>
